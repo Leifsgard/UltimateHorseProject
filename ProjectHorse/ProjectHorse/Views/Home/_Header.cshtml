@@ -1,25 +1,28 @@
-﻿
-    <div class="container">
-        <div class="logoContainer navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar" aria-expanded="False" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-                <img class="logo" alt="logo pic" src="Images/teamnordahl.svg" />
-                <h2 class="navigationHeader">Team Nordahl</h2>
-            </a>
-        </div>
-        <div id="mainNavbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a class="navAnchorLi" href="#">Home</a></li>
-                <li><a class="navAnchorLi" href="#">Stable</a></li>
-                <li><a class="navAnchorLi" href="#">About</a></li>
-                <li><a class="navAnchorLi" href="#">Contact</a></li>
-                <li><a class="navAnchorLi" href="#">News</a></li>
-                <li><a class="navAnchorLi" href="#">Links</a></li>
-            </ul>
-        </div>
+﻿@using System.Web.Mvc.Html
+
+
+<div class="container">
+     <div class="logoContainer navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar" aria-expanded="False" aria-controls="navbar">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href='@Url.Action("index")'>
+            <img class="logo" alt="logo pic" src="Images/teamnordahl.svg" />
+            <h2 class="navigationHeader">Team Nordahl</h2>
+            <div class="clearfix"></div>
+        </a>
     </div>
+    <div id="mainNavbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="navLiElement">@Html.ActionLink("Home", "index")</li>
+          <li class="navLiElement"><a href="#">Stable</a></li>
+          <li class="navLiElement"><a href="#">About</a></li>
+          <li class="navLiElement"><a href="#">Contact</a></li>
+          <li class="navLiElement"><a href="#">News</a></li>
+          <li class="navLiElement"><a href="#">Links</a></li>
+        </ul>
+    </div>
+</div>

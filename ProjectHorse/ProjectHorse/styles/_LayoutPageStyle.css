@@ -2,7 +2,17 @@
     margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quattrocento', serif;
+}
+
+p, a, span {
+    font-family: 'Quattrocento';
+}
+
 body {
+   
+    
 }
 
 div.wrapper {
@@ -12,17 +22,19 @@ div.wrapper {
 
 nav.layoutPageNavbar {
     background-color: #376092;
+    border: none;
 }
 
 h2.navigationHeader {
-    font-size: 2rem;
+    font-size: 4rem;
     float: left;
-    margin-top: 0px;
+    margin-top: -10px;
     color: white !important;
 }
 
 a.logoContainer {
     float: left;
+    
 }
 .mainNavbar {
     float: left;
@@ -32,18 +44,54 @@ a.logoContainer {
     fill: #fff;
     width: 42px;
     height: 42px;
-    float: left;
+   float: left;
     margin: -10px 10px 0 0;
 }
-.navAnchorLi {
+/*.navAnchorLi {
     color: white !important;
+    font-size: 2.2rem;
+}*/
 
+.navLiElement > a {
+    color: white !important;
+    font-size: 2.2rem;
+}
+
+.navLiElement > a:hover {
+    color: #aaaaaa !important;
+    
+}
+
+.navAnchorLi:hover {
+    color: #aaaaaa !important;
+    font-size: 2.2rem;
+    background-color: black;
 }
 
 .footerContent {
-    background-color: #376092;
+    
 }
 .footerParagraph {
-    color: yellow !important;
+    color: white !important;
 }
+
+.footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+    background-color: #376092;
+}
+
+
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+  
 
