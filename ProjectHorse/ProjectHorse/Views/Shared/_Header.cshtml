@@ -10,7 +10,7 @@
              <span class="icon-bar"></span>
          </button>
          <a class="navbar-brand" href='@Url.Action("index")'>
-            <img class="logo" alt="logo pic" src="Images/teamnordahl.svg" />
+            <img class="logo" alt="logo pic" src="~/Images/teamnordahl.svg" />
             <h2 class="navigationHeader">Team Nordahl</h2>
             <div class="clearfix"></div>
         </a>
@@ -19,10 +19,10 @@
         <ul class="nav navbar-nav">
           <li class="navLiElement">@Html.ActionLink("Home", "index")</li>
           <li class="navLiElement"><a href="#">Stable</a></li>
-          <li class="navLiElement"><a href="#">About</a></li>
-          <li class="navLiElement"><a href="#">Contact</a></li>
-          <li class="navLiElement"><a href="#">News</a></li>
-          <li class="navLiElement"><a href="#">Links</a></li>
+          <li class="navLiElement">@Html.ActionLink("About", "About","About")</li>
+          <li class="navLiElement">@Html.ActionLink("Contact", "Contact", "Contact")</li>
+          <li class="navLiElement">@Html.ActionLink("News", "News", "News")</li>
+          <li class="navLiElement">@Html.ActionLink("Links", "Links", "Links")
         </ul>
     </div>
 </div>
