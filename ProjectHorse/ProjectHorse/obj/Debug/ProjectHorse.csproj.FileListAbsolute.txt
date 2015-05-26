@@ -18,3 +18,9 @@ C:\gitprojects\horse\UltimateHorseProject\UltimateHorseProject\ProjectHorse\Proj
 C:\gitprojects\horse\UltimateHorseProject\UltimateHorseProject\ProjectHorse\ProjectHorse\obj\Debug\ProjectHorse.csprojResolveAssemblyReference.cache
 C:\gitprojects\horse\UltimateHorseProject\UltimateHorseProject\ProjectHorse\ProjectHorse\obj\Debug\ProjectHorse.dll
 C:\gitprojects\horse\UltimateHorseProject\UltimateHorseProject\ProjectHorse\ProjectHorse\obj\Debug\ProjectHorse.pdb
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\UltimateHorseProject\ProjectHorse\ProjectHorse\bin\ProjectHorse.dll.config
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\UltimateHorseProject\ProjectHorse\ProjectHorse\bin\ProjectHorse.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\UltimateHorseProject\ProjectHorse\ProjectHorse\bin\ProjectHorse.pdb
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\UltimateHorseProject\ProjectHorse\ProjectHorse\obj\Debug\ProjectHorse.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\UltimateHorseProject\ProjectHorse\ProjectHorse\obj\Debug\ProjectHorse.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\UltimateHorseProject\ProjectHorse\ProjectHorse\obj\Debug\ProjectHorse.pdb

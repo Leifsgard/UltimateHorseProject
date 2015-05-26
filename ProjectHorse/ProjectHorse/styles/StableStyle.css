@@ -1,0 +1,19 @@
+﻿body {
+}
+
+.caption h3, .caption p {
+	margin: 0;
+}
+
+.caption h3 {
+	font-size: 20px;
+}
+
+a.thumbnail:hover {
+	text-decoration: none;
+	box-shadow: 0 0 10px 2px #999;
+}
+
+.expand {
+	text-align: center;
+}

@@ -1,0 +1,201 @@
+﻿@{
+	ViewBag.Title = "Stable";
+	Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+@section styles {
+	<link href="~/styles/StableStyle.css" rel="stylesheet" />
+}
+
+<!-- Filter -->
+<section id="welcome" class="light">
+
+	<div class="col-md-8 col-md-offset-2">
+
+		<div class="row">
+
+			<!-- Color -->
+			<div class="col-md-3">
+				<select name="Färg" class="form-control">
+					<option>Test 1</option>
+					<option>Test 2</option>
+					<option>Test 3</option>
+				</select>
+			</div>
+
+			<!-- Gender -->
+			<div class="col-md-3">
+				<select name="Kön" class="form-control">
+					<option>Test 1</option>
+					<option>Test 2</option>
+					<option>Test 3</option>
+				</select>
+			</div>
+
+			<!-- Birth year start -->
+			<div class="col-md-3">
+				<select name="Födelseår från" class="form-control">
+					<option>Test 1</option>
+					<option>Test 2</option>
+					<option>Test 3</option>
+				</select>
+			</div>
+
+			<!-- Birth year end -->
+			<div class="col-md-3">
+				<select name="Födelseår till" class="form-control">
+					<option>Test 1</option>
+					<option>Test 2</option>
+					<option>Test 3</option>
+				</select>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<!-- Horse mark -->
+			<div class="col-md-3">
+				<select name="Tecken" class="form-control">
+					<option>Test 1</option>
+					<option>Test 2</option>
+					<option>Test 3</option>
+				</select>
+			</div>
+
+			<!-- Status -->
+			<div class="col-md-3">
+				<select name="Status" class="form-control">
+					<option>Test 1</option>
+					<option>Test 2</option>
+					<option>Test 3</option>
+				</select>
+			</div>
+
+			<!-- Name -->
+			<div class="col-md-3">
+				<input class="form-control" type="text" name="name" />
+			</div>
+
+			<!-- Search button -->
+			<div class="col-md-3">
+				<input type="submit" class="btn btn-default" name="submit" />
+			</div>
+
+		</div>
+
+		<div class="container">
+			<div class="col-md-8 col-md-offset-2 news-item">
+				<h1>Välkommen!</h1>
+				<p>Inger och Stefan Nordahl, TeamNordahl, bedriver en hästverksamhet bestående av avel, träning och tävling. Vi har inriktat oss på Camarguehästen och den Varmblodig travaren.</p>
+				<p>Vårt avelsmål är att föda upp välstammade, trevliga och för ändamålet lämpliga hästar. Alla våra uppfödningar har efternamnet Du Nord.</p>
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+<!-- Horses -->
+<section id="horses" class="dark">
+
+	<div class="container">
+		<div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img src="http://placehold.it/1280x720">
+				<div class="caption">
+					<h3>Pietra du Claud</h3>
+					<p>Typ: Trav</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img src="http://placehold.it/1280x720">
+				<div class="caption">
+					<h3>Rikita de la Tour</h3>
+					<p>Typ: Trav</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img src="http://placehold.it/1280x720">
+				<div class="caption">
+					<h3>Tristan du Nord</h3>
+					<p>Typ: Trav</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img src="http://placehold.it/1280x720">
+				<div class="caption">
+					<h3>Aramis du Nord</h3>
+					<p>Typ: Trav</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img src="http://placehold.it/1280x720">
+				<div class="caption">
+					<h3>Delta du Nord</h3>
+					<p>Typ: Trav</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img src="http://placehold.it/1280x720">
+				<div class="caption">
+					<h3>Bamby</h3>
+					<p>Typ: Trav</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img src="http://placehold.it/1280x720">
+				<div class="caption">
+					<h3>Écho du Nord</h3>
+					<p>Typ: Trav</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="col-xs-6 col-md-3">
+			<a href="#" class="thumbnail">
+				<img src="http://placehold.it/1280x720">
+				<div class="caption">
+					<h3>Pietra du Claud</h3>
+					<p>Typ: Trav</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="expand"><a href="#" class="btn btn-primary">Visa fler</a></div>
+
+	</div>
+
+</section>
+
+<!-- Newest horse posts -->
+<section id="welcome" class="light">
+	<div class="container">
+		<div class="col-md-8 col-md-offset-2 news-item">
+			<h1>Välkommen!</h1>
+			<p>Inger och Stefan Nordahl, TeamNordahl, bedriver en hästverksamhet bestående av avel, träning och tävling. Vi har inriktat oss på Camarguehästen och den Varmblodig travaren.</p>
+			<p>Vårt avelsmål är att föda upp välstammade, trevliga och för ändamålet lämpliga hästar. Alla våra uppfödningar har efternamnet Du Nord.</p>
+		</div>
+
+	</div>
+</section>
+
