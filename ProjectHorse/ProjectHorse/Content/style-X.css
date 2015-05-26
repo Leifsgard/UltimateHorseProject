@@ -1,0 +1,87 @@
+﻿body {
+}
+
+.navbar-wrapper {
+	margin-top: 20px;
+}
+
+.navbar-wrapper {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: 20;
+}
+
+.carousel {
+	margin-top: -20px;
+}
+
+.carousel-inner{
+  width:100%;
+}
+
+.logo {
+	fill: #fff;
+	width: 42px;
+	height: 42px;
+	color: #fff;
+	float: left;
+	margin: -10px 10px 0 0;
+}
+
+
+/* Colors */
+
+.navbar {
+	/*background-color: #2980b9;*/
+	background-color: #376092;
+}
+
+.navbar-static-top {
+	border-width: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #f1f1f1;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand {
+	color: #FFF;
+}
+
+.page {
+	background-color: #376092;
+	padding: 15px;
+}
+
+.thumbnail {
+	padding: 0;
+	border: 2px solid white;
+}
+
+.panel {
+	border: 1px solid white;
+}
+
+.light {
+	background-color: #f1f1f1;
+}
+.dark {
+	background-color: #e1e1e1;
+}
+
+section {
+	padding: 60px 0;
+}
+
+.news-item .date {
+	color: #999;
+}
+
+.news-item .p {
+}

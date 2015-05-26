@@ -1,8 +1,33 @@
-﻿
+﻿@model ProjectHorse.Models.HomeIndexViewModel
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_LayoutPage.cshtml";
 }
 
-<h2>Index</h2>
-<p>the index of this system</p>
+@Html.Action("HomePageCarousel")
+<div class="Even" style="background-color: Grey; height: 100px;border:solid;border-color: navy">
+    @Model.TopSideNews
+</div>
+
+<div class="UnEven" style="background-color: Whitesmoke; height: 100px;border:solid;border-color: navy">
+    @Html.Action("HomePageHorses")
+</div>
+
+
+@for (int i = 0; i < Model.Objects.Count; i++) //Loops through the list of news/Blogposts
+{
+    if (i % 2 == 0)
+    {
+        <div class="Even" style="background-color: Grey; height: 100px;border:solid;border-color: navy">
+            <p style="color: white">@Model.Objects[i]</p>
+        </div>
+    }
+    else
+    {
+        <div class="UnEven" style="background-color: Whitesmoke;height: 100px;border:solid;border-color: navy">
+            <p style="color:Grey">@Model.Objects[i]</p>
+        </div>
+    }
+}
+
+
